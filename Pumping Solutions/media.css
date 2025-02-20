@@ -1,0 +1,115 @@
+@media screen and (max-width: 768px) {
+    .hero-sec {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .hero-sec .left {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: visible;
+    }
+
+    .water {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        row-gap: 20px;
+    }
+
+    .water .left {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .water .left .point {
+        width: -webkit-fill-available;
+    }
+
+    .water .right img {
+        height: auto;
+        width: auto;
+    }
+
+    .app {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        row-gap: 20px;
+    }
+
+    .app .photo {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .app .photo .app-img img {
+        width: auto;
+    }
+
+    .pump-sec {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+        padding: 50px;
+    }
+
+    .pump-sec .left img {
+        width: auto;
+        height: auto;
+    }
+
+    .pump-sec .right P {
+        width: auto;
+        text-align: justify;
+    }
+
+    .pump-sec .right {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-sec {
+        padding: 50px;
+    }
+
+    .blog-sec .main-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .blog-sec .main-box .box img {
+        width: auto;
+    }
+
+    .blog-sec .main-box .box p {
+        text-align: center;
+    }
+
+    .blog-sec .category {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .work-sec{
+        padding: 50px;
+        text-align: center;
+    }
+}
